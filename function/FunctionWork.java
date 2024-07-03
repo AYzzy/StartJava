@@ -6,9 +6,9 @@ public class FunctionWork{
 	System.out.println(Function.subtract(10, 6));
 	System.out.println(Function.factorOf(20));
 	System.out.println(Function.divide(20,4));
-	System.out.println(Function.isSquare(20));
+	System.out.println(Function.isSquare(40));
 	System.out.println(Function.factorialOf(6));
-	//System.out.println(Function. isPalindrom(32123));
+	System.out.println(Function. isPalindrom(54145));
 	}
 
 }

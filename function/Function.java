@@ -34,11 +34,10 @@ public class Function{
 	}
 
 	public static boolean isSquare(int digit){
-	int count=0;
+	int count;
 	for (count=1;count<=digit;count++){
-	
 	}
-	if (digit % count ==0)return true;
+	if (digit % count ==digit)return true;
 	return false;
 	}
 
@@ -52,13 +51,15 @@ public class Function{
 	return multiple;
 	}
 
-	/**public static boolean isPalindrom(int number){
-	if(int digit1 = number /10000 &&
-        	int digit2 = (number % 10000) / 1000 &&
-        	int digit3 = (number % 1000) / 100 &&
-       	 int digit4 = (number % 100) /10 &&
-        	int digit5 = number % 10)return true;
+	public static boolean isPalindrom(int number){
+	int digit1 = number /10000;
+        	int digit2 = (number % 10000) / 1000 ;
+        	int digit3 = (number % 1000) / 100 ;
+       	 int digit4 = (number % 100) /10 ;
+        	int digit5 = number % 10;
+
+	if( digit1== digit5 && digit2 == digit4)return true;
 	return false;
-	}**/
+	}
 
 }
